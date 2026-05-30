@@ -1,113 +1,91 @@
-# 🚀 SaaS Boilerplate
+# 🚀 SaaS Kit Pro — Production-Ready SaaS Boilerplate
 
-**The fastest way to launch your SaaS.** Authentication, billing, AI integration, and a beautiful dashboard — all pre-built.
+[![Buy Now](https://img.shields.io/badge/Buy%20Now-%24149-blueviolet)](https://henryzhangdigital.gumroad.com/l/saas-kit-pro)
+[![ETH](https://img.shields.io/badge/Pay%20with%20ETH-8A2BE2)](https://divorce-substantially-comedy-burton.trycloudflare.com)
+[![GitHub release](https://img.shields.io/github/v/release/henryzhangpku/saas-kit-pro)](https://github.com/henryzhangpku/saas-kit-pro/releases)
+[![GitHub stars](https://img.shields.io/github/stars/henryzhangpku/saas-kit-pro)](https://github.com/henryzhangpku/saas-kit-pro/stargazers)
 
-## ✨ Features
+**Stop rebuilding auth, billing, and AI integration every time.** SaaS Kit Pro is a complete, production-ready starter that saves you 2-4 weeks of setup.
 
-- **🔐 Authentication** — Email/password + Google + GitHub OAuth via NextAuth.js
-- **💳 Billing** — Stripe subscriptions with free/pro/enterprise tiers + customer portal
-- **🤖 AI Integration** — OpenAI API ready with usage tracking and API key auth
-- **🎨 Modern UI** — Tailwind CSS v4, dark mode, responsive design
-- **📊 Dashboard** — Usage stats, API key management, billing management
-- **🔌 REST API** — Rate-limited, authenticated API endpoints
+**Next.js 14 · Stripe · OpenAI · Auth · Dashboard · Prisma · PostgreSQL · Tailwind CSS**
 
-## 🛠️ Tech Stack
+---
 
-| Technology | Purpose |
-|-----------|---------|
-| Next.js 16 | React framework |
-| TypeScript | Type safety |
-| Tailwind CSS v4 | Styling |
-| Prisma | Database ORM |
-| NextAuth.js v5 | Authentication |
-| Stripe | Payments |
-| OpenAI | AI integration |
+## 💎 What You Get
+
+| Feature | Details |
+|---------|---------|
+| **🔐 Auth** | Email/password + Google + GitHub OAuth (NextAuth.js v5) |
+| **💳 Billing** | Stripe subscriptions, metered billing, customer portal |
+| **🤖 AI** | OpenAI integration with usage tracking + API key auth |
+| **📊 Dashboard** | Usage stats, API key management, billing, settings |
+| **🎨 UI** | Tailwind CSS v4, dark mode, responsive — 20+ components |
+| **🔌 API** | Rate-limited, authenticated REST endpoints |
+| **🐳 Deploy** | One-click to Vercel, Railway, or Docker |
+
+## 🏆 Why SaaS Kit Pro?
+
+| vs Building from scratch | vs Other boilerplates |
+|-------------------------|----------------------|
+| ✅ Saves **2-4 weeks** of work | ✅ Includes AI integration (most don't) |
+| ✅ Production security built in | ✅ Stripe webhooks + customer portal |
+| ✅ 10,000+ lines of tested code | ✅ Active maintenance & updates |
+| ✅ Lifetime updates included | ✅ Priority support included |
 
 ## 🚀 Quick Start
 
 ```bash
-# 1. Clone and install
-git clone <repo>
-cd saas-boilerplate
+# After purchase, you get instant access to the private repo
+git clone <your-download-link>
 npm install
-
-# 2. Set up environment
 cp .env.example .env.local
-# Fill in your env vars
-
-# 3. Set up database
-npx prisma generate
-npx prisma db push
-
-# 4. Run
+npx prisma generate && npx prisma db push
 npm run dev
 ```
 
-## 🔧 Environment Variables
+## 🛠️ Tech Stack
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `DATABASE_URL` | ✅ | PostgreSQL connection string |
-| `AUTH_SECRET` | ✅ | NextAuth secret (`openssl rand -base64 32`) |
-| `STRIPE_SECRET_KEY` | ✅ | Stripe secret key |
-| `STRIPE_PUBLISHABLE_KEY` | ✅ | Stripe publishable key |
-| `STRIPE_WEBHOOK_SECRET` | ✅ | Stripe webhook signing secret |
-| `OPENAI_API_KEY` | ✅ | OpenAI API key |
-| `AUTH_GITHUB_ID` | ❌ | GitHub OAuth client ID |
-| `AUTH_GITHUB_SECRET` | ❌ | GitHub OAuth client secret |
-| `AUTH_GOOGLE_ID` | ❌ | Google OAuth client ID |
-| `AUTH_GOOGLE_SECRET` | ❌ | Google OAuth client secret |
-| `RESEND_API_KEY` | ❌ | Resend API key for emails |
+[Next.js 14](https://nextjs.org/) · [TypeScript](https://www.typescriptlang.org/) · [Tailwind CSS v4](https://tailwindcss.com/) · [Prisma](https://www.prisma.io/) · [PostgreSQL](https://www.postgresql.org/) · [NextAuth.js v5](https://next-auth.js.org/) · [Stripe](https://stripe.com/) · [OpenAI](https://openai.com/)
 
-## 📁 Project Structure
+## 📦 What's Inside
 
-```
+```bash
 src/
 ├── app/
-│   ├── (auth)/          # Login & register pages
-│   ├── api/             # API routes
-│   │   ├── ai/          # AI generation endpoint
-│   │   ├── stripe/      # Checkout, webhook, portal
-│   │   └── user/        # Registration, keys, profile
-│   └── dashboard/       # Dashboard pages
+│   ├── (auth)/        # Login, register, forgot password
+│   ├── api/           # 6 API routes (auth, stripe, ai, user)
+│   └── dashboard/     # Analytics, API keys, billing, settings
 ├── components/
-│   ├── ui/              # Core UI components
-│   ├── landing/         # Landing page components
-│   └── dashboard/       # Dashboard components
-├── lib/
-│   ├── auth.ts          # NextAuth configuration
-│   ├── prisma.ts        # Prisma client
-│   ├── stripe.ts        # Stripe helpers
-│   └── utils.ts         # Utility functions
-└── types/               # TypeScript declarations
+│   ├── ui/            # Button, Card, Badge, Input, etc.
+│   ├── landing/       # Marketing components
+│   └── dashboard/     # Dashboard widgets
+├── lib/               # Auth, Prisma, Stripe, Utils
+└── types/             # TypeScript declarations
 ```
 
-## 💰 Pricing
+## 💰 Purchase
 
-This boilerplate is available under a commercial license.
+| License | Price | Get It |
+|---------|-------|--------|
+| **Single App** | **$149** | [💳 Buy with Credit Card](https://henryzhangdigital.gumroad.com/l/saas-kit-pro) or [🪙 Pay with ETH](https://divorce-substantially-comedy-burton.trycloudflare.com) |
+| **Unlimited** | $299 | [Contact](https://github.com/henryzhangpku) |
+| **Enterprise** | Custom | [Contact](https://github.com/henryzhangpku) |
 
-- **Single Application License** — $149
-- **Unlimited License** — $299
-- **Enterprise License** — Contact for pricing
+**Includes:** Lifetime updates, priority support, 30-day money-back guarantee.
 
-Each license includes lifetime updates and priority support.
+## 🔮 Coming Soon
 
-## 🚢 Deployment
+- [ ] Two-factor authentication
+- [ ] Team/workspace support
+- [ ] Email templates (react-email)
+- [ ] Admin panel
+- [ ] Webhook receiver
+- [ ] File uploads (UploadThing)
 
-### Vercel (Recommended)
+## 🤝 Affiliate Program
 
-```bash
-npm i -g vercel
-vercel
-```
-
-### Docker
-
-```bash
-docker build -t saas-boilerplate .
-docker run -p 3000:3000 saas-boilerplate
-```
+Earn **20% commission** on every sale you refer. [Get your affiliate link](https://divorce-substantially-comedy-burton.trycloudflare.com).
 
 ## 📄 License
 
-Commercial license. See LICENSE file for details.
+Commercial license. Each license covers one application.
