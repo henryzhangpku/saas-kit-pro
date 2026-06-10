@@ -1,4 +1,6 @@
 # 🚀 SaaS Kit Pro — Production-Ready SaaS Boilerplate
+[![Telegram](https://img.shields.io/badge/📡_QuantSignals_Trading_Signals-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/quantsignalsxyz)
+
 
 [![Buy Now](https://img.shields.io/badge/Buy%20Now-%24149-blueviolet)](https://henryzhangdigital.gumroad.com/l/saas-kit-pro)
 [![ETH](https://img.shields.io/badge/Pay%20with%20ETH-8A2BE2)](https://divorce-substantially-comedy-burton.trycloudflare.com)
